@@ -5,8 +5,6 @@ import { env } from "$env/dynamic/private";
 export async function GET({ params }) {
   let data = {};
 
-  console.log(`${env.API_HOST}/${params.path}`);
-
   const response = await fetch(`${env.API_HOST}/${params.path}`);
   if (response.ok) {
     data = await response.json();
