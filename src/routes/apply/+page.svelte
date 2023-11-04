@@ -6,7 +6,7 @@
 	export let data;
 
 	const stepNum = 0;
-	const step = data.form.steps[stepNum];
+	const step = data.form[0].steps[stepNum];
 </script>
 
 <div class="form-wrapper">
