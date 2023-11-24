@@ -3,6 +3,8 @@
 	export let data;
 </script>
 
+{@html data.step.style}
+
 <div class="container">
 	<div class="row">
 		<div class="col-12">
